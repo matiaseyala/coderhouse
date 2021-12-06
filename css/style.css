@@ -292,12 +292,10 @@ p {
 
 .glosario-indice {
   display: flex; }
-
-.glosario-indice .first-ol {
-  display: inline; }
-
-.glosario-indice li {
-  display: inline;
-  list-style-type: none;
-  padding: 10px;
-  background-color: #5a5a5a; }
+  .glosario-indice .first-ol {
+    display: inline; }
+    .glosario-indice .first-ol li {
+      display: inline;
+      list-style-type: none;
+      padding: 10px;
+      background-color: #5a5a5a; }

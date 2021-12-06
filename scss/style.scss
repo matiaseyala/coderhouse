@@ -384,15 +384,26 @@ p {
 
 .glosario-indice {
     display: flex;
+    .first-ol {
+        display: inline;
+        li {
+            display: inline;
+            list-style-type: none;
+            padding: 10px;
+            background-color: rgb(90, 90, 90);
+        }
+    }
+    
+    
 }
 
-.glosario-indice .first-ol {
-    display: inline;
-}
+// .glosario-indice .first-ol {
+//     display: inline;
+// }
 
-.glosario-indice li {
-    display: inline;
-    list-style-type: none;
-    padding: 10px;
-    background-color: rgb(90, 90, 90);
-}
+// .glosario-indice li {
+//     display: inline;
+//     list-style-type: none;
+//     padding: 10px;
+//     background-color: rgb(90, 90, 90);
+// }
