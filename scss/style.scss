@@ -408,9 +408,9 @@ p {
 
 .glosario {
     .glosario-indice {
-        display: flex;
-
-        .first-ol {
+        display: flex; 
+    }
+    .first-ol {
             display: inline;
 
             li {
@@ -422,7 +422,6 @@ p {
 
         }
     }
-}
 
 .glosario-img {
     width: 35%;
