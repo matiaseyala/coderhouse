@@ -197,10 +197,6 @@ main {
   width: 50%;
   height: 50%; }
 
-.glosario-img {
-  width: 35%;
-  height: 35%; }
-
 .container-plaga {
   display: grid;
   grid-template-columns: 100%;
@@ -299,3 +295,6 @@ p {
       list-style-type: none;
       padding: 10px;
       background-color: #5a5a5a; }
+  .glosario-indice .glosario-img {
+    width: 35%;
+    height: 35%; }
