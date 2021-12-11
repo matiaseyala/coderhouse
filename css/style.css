@@ -167,25 +167,25 @@ p {
   letter-spacing: 1px;
   color: black; }
 
-.vege-indice {
+.vege .vege-indice {
   list-style: none;
   list-style-type: upper-roman;
   font-family: 'EB Garamond', serif;
   font-family: 'Montserrat', sans-serif; }
 
-.vege-resumen {
+.vege .vege-resumen {
   padding: 30px;
   border: 30px;
   letter-spacing: 1px;
   font-family: 'EB Garamond', serif;
   font-family: 'Montserrat', sans-serif; }
 
-.img-1,
-.img-2,
-.img-3,
-.img-4,
-.img-5,
-.img-6 {
+.vege .img-1,
+.vege .img-2,
+.vege .img-3,
+.vege .img-4,
+.vege .img-5,
+.vege .img-6 {
   width: 50%;
   height: 50%; }
 
@@ -219,6 +219,8 @@ main {
     display: grid;
     grid-column-start: container-mosca;
     grid-column-end: container-mosca; }
+    .container-plaga .container-mosca .container-mosca-imagen {
+      justify-self: left; }
   .container-plaga .container-pulgon {
     width: 90%;
     max-width: 1000px;
@@ -286,15 +288,17 @@ p {
 .container-mosca-imagen {
   justify-self: left; }
 
-.glosario-indice {
+.glosario .glosario-indice {
   display: flex; }
-  .glosario-indice .first-ol {
-    display: inline; }
-    .glosario-indice .first-ol li {
-      display: inline;
-      list-style-type: none;
-      padding: 10px;
-      background-color: #5a5a5a; }
-  .glosario-indice .glosario-img {
-    width: 35%;
-    height: 35%; }
+
+.glosario .first-ol {
+  display: inline; }
+  .glosario .first-ol li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    background-color: #5a5a5a; }
+
+.glosario-img {
+  width: 35%;
+  height: 35%; }

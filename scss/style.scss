@@ -136,13 +136,18 @@ img {
     background-color: rgb(63, 71, 57);
     display: flex;
     padding: 10px;
+    .redesSociales {
+        width: 3%;
+        height: 3%;
+        align-items: center;
+    }
 }
 
-.redesSociales {
-    width: 3%;
-    height: 3%;
-    align-items: center;
-}
+// .redesSociales {
+//     width: 3%;
+//     height: 3%;
+//     align-items: center;
+// }
 
 .principal {
     display: grid;
@@ -264,15 +269,11 @@ p {
 //     height: 50%;
 // }
 
-main {
-    background-image: url("../imagenes/Photo\ by\ Claudel\ Rheault\ on\ Unsplash.jpg");
-    background-image: cover;
-}
 
-.plaga-img {
-    width: 50%;
-    height: 50%;
-}
+// .plaga-img {
+//     width: 50%;
+//     height: 50%;
+// }
 
 
 .container-plaga {
@@ -370,8 +371,10 @@ main {
         grid-column-start: container-oruga;
         grid-column-end: container-oruga;
     }
-
-
+    .plaga-img {
+        width: 50%;
+        height: 50%;
+    }
 
 }
 
@@ -426,6 +429,7 @@ p {
 .glosario-img {
     width: 35%;
     height: 35%;
+
 }
 
 
