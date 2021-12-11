@@ -234,11 +234,13 @@ p {
         font-family: 'EB Garamond', serif;
         font-family: 'Montserrat', sans-serif;
     }
-
-    .img-vege{
-        width: 50%;
-        height: 50%;
-             
+    .container-img-vege{
+        display: flex;
+        justify-content: center;   
+          .img-vege{ 
+           width: 50%;
+          height: 50%;
+       }
     }
     p{
         font-family: 'Cormorant Upright', serif;
@@ -254,31 +256,6 @@ p {
 
 
 }
-
-// .vege-resumen {
-//     padding: 30px;
-//     border: 30px;
-//     letter-spacing: 1px;
-//     font-family: 'EB Garamond', serif;
-//     font-family: 'Montserrat', sans-serif;
-
-// }
-
-// .img-1,
-// .img-2,
-// .img-3,
-// .img-4,
-// .img-5,
-// .img-6 {
-//     width: 50%;
-//     height: 50%;
-// }
-
-
-// .plaga-img {
-//     width: 50%;
-//     height: 50%;
-// }
 
 
 .container-plaga {
@@ -429,11 +406,19 @@ p {
             }
 
         }
+    .container-glosario{
+      .container-img-glosario{
+          display: flex;
+          justify-content: center;
+          
+     }
+      }
     }
+    
 
 .glosario-img {
-    width: 35%;
-    height: 35%;
+    width: 50%;
+    height: 50%;
 
 }
 

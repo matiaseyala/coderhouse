@@ -179,15 +179,12 @@ p {
   font-family: 'EB Garamond', serif;
   font-family: 'Montserrat', sans-serif; }
 
-.vege .img-vege {
-  width: 50%;
-  height: 50%;
+.vege .container-img-vege {
   display: flex;
   justify-content: center; }
-  .vege .img-vege figcaption {
-    font-family: 'Cormorant Upright', serif;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Montserrat', sans-serif; }
+  .vege .container-img-vege .img-vege {
+    width: 50%;
+    height: 50%; }
 
 .vege p {
   font-family: 'Cormorant Upright', serif;
@@ -301,6 +298,15 @@ p {
     padding: 10px;
     background-color: #5a5a5a; }
 
+.glosario .container-glosario .container-img-glosario {
+  display: flex;
+  justify-content: center; }
+
 .glosario-img {
-  width: 35%;
-  height: 35%; }
+  width: 50%;
+  height: 50%; }
+
+figcaption {
+  font-family: 'Cormorant Upright', serif;
+  font-family: 'EB Garamond', serif;
+  font-family: 'Montserrat', sans-serif; }
