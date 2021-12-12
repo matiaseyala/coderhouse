@@ -71,6 +71,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #0B7F20;
+
     a {
         display: block;
         padding: 0 10px;
@@ -135,6 +136,7 @@ img {
     background-color: rgb(63, 71, 57);
     display: flex;
     padding: 10px;
+
     .redesSociales {
         width: 3%;
         height: 3%;
@@ -220,7 +222,7 @@ p {
 }
 
 .vege {
-       .vege-indice {
+    .vege-indice {
         list-style: none;
         list-style-type: upper-roman;
         font-family: 'EB Garamond', serif;
@@ -234,21 +236,24 @@ p {
         font-family: 'EB Garamond', serif;
         font-family: 'Montserrat', sans-serif;
     }
-    .container-img-vege{
+
+    .container-img-vege {
         display: flex;
-        justify-content: center;   
-          .img-vege{ 
-           width: 50%;
-          height: 50%;
-       }
+        justify-content: center;
+
+        .img-vege {
+            width: 50%;
+            height: 50%;
+        }
     }
-    p{
+
+    p {
         font-family: 'Cormorant Upright', serif;
 
         font-family: 'EB Garamond', serif;
-    
+
         font-family: 'Montserrat', sans-serif;
-    
+
         font-family: 'Spectral SC', serif;
         text-align: center;
     }
@@ -353,6 +358,7 @@ p {
         grid-column-start: container-oruga;
         grid-column-end: container-oruga;
     }
+
     .plaga-img {
         width: 50%;
         height: 50%;
@@ -393,40 +399,116 @@ p {
 
 .glosario {
     .glosario-indice {
-        display: flex; 
+        display: flex;
     }
-    .first-ol {
-            display: inline;
 
-            li {
-                display: inline;
-                list-style-type: none;
-                padding: 10px;
-                background-color: rgb(90, 90, 90);
-            }
+    .first-ol {
+        display: inline;
+
+        li {
+            display: inline;
+            list-style-type: none;
+            padding: 10px;
+            background-color: rgb(90, 90, 90);
+        }
+
+    }
+
+    .container-glosario {
+        .container-img-glosario {
+            display: flex;
+            justify-content: center;
 
         }
-    .container-glosario{
-      .container-img-glosario{
-          display: flex;
-          justify-content: center;
-          
-     }
-      }
     }
-    
+}
+
 
 .glosario-img {
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
 
 }
 
-figcaption{
+figcaption {
     font-family: 'Cormorant Upright', serif;
 
     font-family: 'EB Garamond', serif;
 
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
+// .container-img-flora{
+//     display: flex;
+//     justify-content: center;
+
+// } 
+.container-img-semana {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .img-semana1 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .img-semana2 {
+        width: 350px;
+        height: 350px;
+    }
+
+    .img-semana3 {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+
+.container-pistilo {
+    display: flex;
+    justify-content: center;
+
+    .img-pistilo {
+        width: 70%;
+        height: 20%;
+    }
+}
+
+
+
+.container-img-semana6 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;   
+}
+
+
+.container-follaje {
+    display: flex;
+    justify-content: center;
+
+    .img-follaje {
+        width: 50%;
+        height: 20%;
+    }
+}
+
+
+
+.container-img-semana4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    .img-semana5 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .img-semana4 {
+        width: 500px;
+        height: 500px;
+    }
+}
