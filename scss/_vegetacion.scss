@@ -1,0 +1,63 @@
+.vege {
+    .vege-indice {
+        text-decoration: none;
+        background: none;
+        color: black;
+        list-style-type: upper-roman;
+        //font-family: 'EB Garamond', serif;
+        //font-family: 'Montserrat', sans-serif;
+        padding: 30px;
+        margin: 5px
+    }
+
+    .vege-resumen {
+        padding: 30px;
+        border: 30px;
+        letter-spacing: 1px;
+        //font-family: 'EB Garamond', serif;
+        //font-family: 'Montserrat', sans-serif;
+        padding: 30px;
+        margin: 5px
+    }
+
+    .vege-texto {
+        padding: 30px;
+        margin: 5px;
+        p {
+            text-align: justify;
+        }
+    }
+
+    .container-img-vege {
+        display: flex;
+        justify-content: center;
+
+        .img-vege {
+            width: auto;
+            height: 50%;
+            padding: 45px;
+        }
+    }
+
+    p {
+        //font-family: 'Cormorant Upright', serif;
+
+        //font-family: 'EB Garamond', serif;
+
+        //font-family: 'Montserrat', sans-serif;
+
+        //font-family: 'Spectral SC', serif;
+        text-align: center;
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    li {
+        //font-family: 'Abel', sans-serif;
+        //font-family: 'Roboto', sans-serif;
+        padding-left: 45px;
+    }
+
+
+
+}

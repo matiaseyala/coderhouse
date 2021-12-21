@@ -71,7 +71,72 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img class="logo" src="./imagenes/PNG/OvejaVerde-01.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav>
       <div>
         <a href="../index.html"><img src="../imagenes/PNG/cara.png" alt="" class="logo" /></a>
       </div>
@@ -110,7 +175,7 @@
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
   </header>
   <div>
     <h1>¡Bienvenidos a Oveja Verde Grow!</h1>
@@ -119,17 +184,14 @@
   <main class="vege">
     <h2><b>El crecimiento del cannabis: Etapa Vegetativa</b></h2>
     <div>
-      <h3><b>Indice</b></h3>
+      <h3 class="text-center text-md-start"><b>Indice</b></h3>
     </div>
-    <div>
-      <ol class="vege-indice">
-        <li><a href="#li-1"> Interior/Exterior</a></li>
-        <li><a href="#li-2"> Medio de Cultivo</a></li>
-        <li><a href="#li-3">Parámetros de cultivo en la fase de crecimiento de la marihuana</a></li>
-        <li><a href="#li-4">Resumen de los factores principales de cultivo durante la fase vegetativa de la
-            marihuana</a></li>
-      </ol>
-    </div>
+    <ul class="list-group">
+      <li class="list-group-item"><a href="#li-1"> Interior/Exterior</a></li>
+      <li class="list-group-item"><a href="#li-2"> Medio de Cultivo</a></li>
+      <li class="list-group-item"><a href="#li-3">Parámetros de cultivo en la fase de crecimiento de la marihuana</a></li>
+      <li class="list-group-item"><a href="#li-4">Resumen de los factores principales de cultivo durante la fase vegetativa de la marihuana</a></li>
+    </ul>
     <div class="vege-texto">
       <p>De las tres fases de desarrollo que tiene una planta de marihuana a partir de una semilla - germinación,
         crecimiento y floración - , la segunda etapa, el crecimiento vegetativo, podría parecer la menos delicada o

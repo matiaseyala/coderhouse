@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif!important;
+}
+body {
+    background: url("https://i.pinimg.com/originals/cb/33/3e/cb333e86aafde7d3aaf6094a74fc654f.jpg")!important;
 }
 
 .btn-primary {
@@ -70,10 +74,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    z-index: 9999 fixed;
-    
-
-
+   
     a {
         display: block;
         padding: 0 10px;
@@ -209,14 +210,14 @@ footer {
 
 
 .nosotros {
-    font-family: 'Cormorant Upright', serif;
+    //font-family: 'Cormorant Upright', serif;
 
-    font-family: 'EB Garamond', serif;
+    //font-family: 'EB Garamond', serif;
 
-    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Montserrat', sans-serif;
 
-    font-family: 'Spectral SC', serif;
-    text-align: center;
+    //font-family: 'Spectral SC', serif;
+    text-align: justify;
 
 
 
@@ -225,42 +226,33 @@ footer {
 .img-nosotros {
     width: 400px;
     height: 400px;
+    margin-bottom: 50px;
+
 }
 
-.img-nosotros1 {
-    width: 400px;
-    height: 400px;
-}
-
-.img-nosotros2 {
-    width: 400px;
-    height: 400px;
-}
 
 .container-img-nosotros {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px;
-
 }
 
 
 
 
 h1 {
-    font-family: 'Abel', sans-serif;
-    font-family: 'Bangers', cursive;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Sassy Frass', cursive;
-    font-family: 'Shrikhand', cursive;
-    text-align-last: center;
+    //font-family: 'Abel', sans-serif;
+    //font-family: 'Bangers', cursive;
+    //font-family: 'Roboto', sans-serif;
+    //font-family: 'Sassy Frass', cursive;
+    //font-family: 'Shrikhand', cursive;
+    text-align: center;
     font-style: italic;
     background: linear-gradient(to bottom, white, #0B7F20);
 }
 
 h2 {
-    font-family: 'Nunito Sans', sans-serif;
+    //font-family: 'Nunito Sans', sans-serif;
     text-align: left;
     padding: 10px;
     border: 5px;
@@ -271,7 +263,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Nunito Sans', sans-serif;
+    //font-family: 'Nunito Sans', sans-serif;
     text-align: left;
     padding: 10px;
     border: 5px;
@@ -283,7 +275,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Nunito Sans', sans-serif;
+    //font-family: 'Nunito Sans', sans-serif;
     text-align: left;
     padding: 10px;
     border: 5px;
@@ -295,124 +287,65 @@ h4 {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Montserrat', sans-serif;
     text-align: left;
     padding: 15px;
     font-style: normal;
     letter-spacing: 1px;
     color: black;
 }
-
-.vege {
-    .vege-indice {
-        text-decoration: none;
-        background: none;
-        color: black;
-        list-style-type: upper-roman;
-        font-family: 'EB Garamond', serif;
-        font-family: 'Montserrat', sans-serif;
-        padding: 30px;
-        margin: 5px
-    }
-
-    .vege-resumen {
-        padding: 30px;
-        border: 30px;
-        letter-spacing: 1px;
-        font-family: 'EB Garamond', serif;
-        font-family: 'Montserrat', sans-serif;
-        padding: 30px;
-        margin: 5px
-    }
-
-    .vege-texto {
-        padding: 30px;
-        margin: 5px
-    }
-
-    .container-img-vege {
-        display: flex;
-        justify-content: center;
-
-        .img-vege {
-            width: 50%;
-            height: 50%;
-        }
-    }
-
-    p {
-        font-family: 'Cormorant Upright', serif;
-
-        font-family: 'EB Garamond', serif;
-
-        font-family: 'Montserrat', sans-serif;
-
-        font-family: 'Spectral SC', serif;
-        text-align: center;
-        font-size: 17px;
-        font-style: italic;
-    }
-
-    li {
-        font-family: 'Abel', sans-serif;
-        font-family: 'Roboto', sans-serif;
-
-    }
-
-
-
-}
+@import "_vegetacion.scss";
 
 
 .container-plaga {
-    p{       font-family: 'Alfa Slab One', cursive;
+    p{       
+        //font-family: 'Alfa Slab One', cursive;
 
-        font-family: 'Cormorant Upright', serif;
+        //font-family: 'Cormorant Upright', serif;
     
-        font-family: 'EB Garamond', serif;
+        //font-family: 'EB Garamond', serif;
     
-        font-family: 'Flow Rounded', cursive;
+        //font-family: 'Flow Rounded', cursive;
     
-        font-family: 'Fredoka One', cursive;
+        //font-family: 'Fredoka One', cursive;
     
-        font-family: 'Lato', sans-serif;
+        //font-family: 'Lato', sans-serif;
     
-        font-family: 'Luckiest Guy', cursive;
+        //font-family: 'Luckiest Guy', cursive;
     
-        font-family: 'Montserrat', sans-serif;
+        //font-family: 'Montserrat', sans-serif;
     
-        font-family: 'Nunito', sans-serif;
+        //font-family: 'Nunito', sans-serif;
     
-        font-family: 'Poppins', sans-serif;
+        //font-family: 'Poppins', sans-serif;
     
-        font-family: 'PT Sans', sans-serif;
+        //font-family: 'PT Sans', sans-serif;
     
-        font-family: 'Red Hat Display', sans-serif;
+        //font-family: 'Red Hat Display', sans-serif;
     
-        font-family: 'Secular One', sans-serif;
+        //font-family: 'Secular One', sans-serif;
     
-        font-family: 'Sigmar One', cursive;
+        //font-family: 'Sigmar One', cursive;
     
-        font-family: 'Source Sans Pro', sans-serif;
+        //font-family: 'Source Sans Pro', sans-serif;
     
-        font-family: 'Spectral SC', serif;
+        //font-family: 'Spectral SC', serif;
     
-        font-family: 'Ubuntu', sans-serif;
+        //font-family: 'Ubuntu', sans-serif;
     }
     li{
-        font-family: 'Abel', sans-serif;
-        font-family: 'Roboto', sans-serif;
+        //font-family: 'Abel', sans-serif;
+        //font-family: 'Roboto', sans-serif;
         padding: 10px;
         margin: 5px;
     }
     .container-texto{
-        padding: 20px;
-        margin: 10px;
-        font-size: 17px;   
+            padding: 20px;
+            font-size: 17px;   
     }
     .container-texto-principal{
         padding: 20px;
-        margin: 10px;
+        // margin: 10px;
         font-size: 20px;
         font-style: italic;
     }    
@@ -492,8 +425,8 @@ p {
             text-decoration: none;
             padding: 10px;
             background:none;
-            font-family: 'Abel', sans-serif;
-            font-family: 'Roboto', sans-serif;
+            //font-family: 'Abel', sans-serif;
+            //font-family: 'Roboto', sans-serif;
             
         }
 
@@ -506,72 +439,72 @@ p {
 
         }
     }
-    p{   font-family: 'Alfa Slab One', cursive;
+    p{   //font-family: 'Alfa Slab One', cursive;
 
-        font-family: 'Cormorant Upright', serif;
+        //font-family: 'Cormorant Upright', serif;
     
-        font-family: 'EB Garamond', serif;
+        //font-family: 'EB Garamond', serif;
     
-        font-family: 'Flow Rounded', cursive;
+        //font-family: 'Flow Rounded', cursive;
     
-        font-family: 'Fredoka One', cursive;
+        //font-family: 'Fredoka One', cursive;
     
-        font-family: 'Lato', sans-serif;
+        //font-family: 'Lato', sans-serif;
     
-        font-family: 'Luckiest Guy', cursive;
+        //font-family: 'Luckiest Guy', cursive;
     
-        font-family: 'Montserrat', sans-serif;
+        //font-family: 'Montserrat', sans-serif;
     
-        font-family: 'Nunito', sans-serif;
+        //font-family: 'Nunito', sans-serif;
     
-        font-family: 'Poppins', sans-serif;
+        //font-family: 'Poppins', sans-serif;
     
-        font-family: 'PT Sans', sans-serif;
+        //font-family: 'PT Sans', sans-serif;
     
-        font-family: 'Red Hat Display', sans-serif;
+        //font-family: 'Red Hat Display', sans-serif;
     
-        font-family: 'Secular One', sans-serif;
+        //font-family: 'Secular One', sans-serif;
     
-        font-family: 'Sigmar One', cursive;
+        //font-family: 'Sigmar One', cursive;
     
-        font-family: 'Spectral SC', serif;
+        //font-family: 'Spectral SC', serif;
     
-        font-family: 'Ubuntu', sans-serif;
+        //font-family: 'Ubuntu', sans-serif;
     }
 }
 
 
 .glosario-img {
-    width: auto;
+    width: 100%;
     height: auto;
 
 }
 
 figcaption {
-    font-family: 'Cormorant Upright', serif;
+    //font-family: 'Cormorant Upright', serif;
 
-    font-family: 'EB Garamond', serif;
+    //font-family: 'EB Garamond', serif;
 
-    font-family: 'Montserrat', sans-serif;
+    //font-family: 'Montserrat', sans-serif;
 }
 
 .flora {
     p {
-        font-family: 'Cormorant Upright', serif;
+        //font-family: 'Cormorant Upright', serif;
 
-        font-family: 'EB Garamond', serif;
+        //font-family: 'EB Garamond', serif;
 
-        font-family: 'Montserrat', sans-serif;
+        //font-family: 'Montserrat', sans-serif;
 
-        font-family: 'Spectral SC', serif;
+        //font-family: 'Spectral SC', serif;
         text-align: center;
          font-size: 17px;
         font-style: italic;
     }
 
     li {
-        font-family: 'Abel', sans-serif;
-        font-family: 'Roboto', sans-serif;
+        //font-family: 'Abel', sans-serif;
+        //font-family: 'Roboto', sans-serif;
     }
 
     .flora-texto {
@@ -580,37 +513,37 @@ figcaption {
     }
 
     h5 {
-        font-family: 'Alfa Slab One', cursive;
+        //font-family: 'Alfa Slab One', cursive;
 
-        font-family: 'Cormorant Upright', serif;
+        //font-family: 'Cormorant Upright', serif;
 
-        font-family: 'EB Garamond', serif;
+        //font-family: 'EB Garamond', serif;
 
-        font-family: 'Flow Rounded', cursive;
+        //font-family: 'Flow Rounded', cursive;
 
-        font-family: 'Fredoka One', cursive;
+        //font-family: 'Fredoka One', cursive;
 
-        font-family: 'Lato', sans-serif;
+        //font-family: 'Lato', sans-serif;
 
-        font-family: 'Luckiest Guy', cursive;
+        //font-family: 'Luckiest Guy', cursive;
 
-        font-family: 'Montserrat', sans-serif;
+        //font-family: 'Montserrat', sans-serif;
 
-        font-family: 'Nunito', sans-serif;
+        //font-family: 'Nunito', sans-serif;
 
-        font-family: 'Poppins', sans-serif;
+        //font-family: 'Poppins', sans-serif;
 
-        font-family: 'PT Sans', sans-serif;
+        //font-family: 'PT Sans', sans-serif;
 
-        font-family: 'Red Hat Display', sans-serif;
+        //font-family: 'Red Hat Display', sans-serif;
 
-        font-family: 'Secular One', sans-serif;
+        //font-family: 'Secular One', sans-serif;
 
-        font-family: 'Sigmar One', cursive;
+        //font-family: 'Sigmar One', cursive;
 
-        font-family: 'Spectral SC', serif;
+        //font-family: 'Spectral SC', serif;
 
-        font-family: 'Ubuntu', sans-serif;
+        //font-family: 'Ubuntu', sans-serif;
         padding: 10px;
         margin: 5px;
     }
@@ -705,12 +638,39 @@ figcaption {
     padding: 20px;
     margin: 8px;
     .imagen-nombre{
-        width: 300px;
+        width: 100%;
+        background: white;
         padding: 20px;
-        margin: 10px;              
+        margin: 10px;
+        figure img {
+            width: auto;
+            display: flex;
+            margin: auto;
+        }              
+    }
+} 
+@media (max-width: 798px) {
+    .container-img-nosotros {
+        flex-direction: column;
+    }
+    .img-nosotros {
+        width: 100%;
+    }
+    .flora {
+        .container-img-semana {
+            flex-direction: column;
+            figure {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+    .container-ferti{
+        .imagen-nombre{
+            margin: 0;
+            figure img {
+                width: 50%;
+            }
+        }
     }
 }
-// header{
-//     z-index: 9999;
-//     position: fixed;
-// }
