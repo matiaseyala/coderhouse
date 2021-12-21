@@ -485,7 +485,14 @@ figcaption {
     padding: 20px;
     margin: 5px; }
 
-.imagen-nombre {
-  width: 300px;
-  display: flex;
-  justify-content: start; }
+.container-ferti {
+  padding: 20px;
+  margin: 8px; }
+  .container-ferti .imagen-nombre {
+    width: 300px;
+    padding: 20px;
+    margin: 10px; }
+
+header {
+  z-index: 9999;
+  position: fixed; }
